@@ -25,12 +25,21 @@ background-color: var(--background-white);
 .web-text{
     font-family: "Raleway", sans-serif;
     color: var(--web-color);
-    width: 44px;
-height: 21px;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.studio-text{
+    color: var(--head-color);
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 .ul-1 a{
     color: var(--head-color)
@@ -112,16 +121,6 @@ border-radius: 4px;
 .button:hover, .button:active{
     background-color: var(--pressed-state);
 }
-
-.studio-text{
-    color: var(--head-color);
-    font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-}
-
 .section1{
 background-color: var(--background-dark);
 }
