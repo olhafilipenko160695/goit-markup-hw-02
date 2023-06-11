@@ -1,23 +1,122 @@
+
 :root{
-    --font-family : 'Roboto';
+    --background-white: white;
+    --background-dark: #2E2F42;
+    --cloud-color: #F4F4FD;
+    --web-color: #4D5AE5;
+    --head-color:#2E2F42;
+    --paragraph-color: #434455;
+--pressed-state: #404BBF;
+--h1-color:  #FFFFFF;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+header{
+background-color: var(--background-white);
+}
+.web-text{
+    font-family: 'Raleway', sans-serif;
+    color: var(--web-color);
+    width: 44px;
+height: 21px;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+}
+.ul-1 a{
+    color: var(--head-color)
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;   
+}
+
+.ul-1 a:hover, .ul-1 a:focus, .ul-1 a:active {
+    color: var(--pressed-state);
+    width: 48px;
+    height: 52px;
+    left: 23px;
+    top: 92px;
+}
+.ul-address a{
+color: var(--paragraph-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+}
+
+.ul-address a:hover, .ul-address a:focus{
+    color: var(--pressed-state);
+}
+
+h1{
+    color: var(--h1-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+}
+h2{
+color: var(--head-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.02em;
+}
+
+h3{
+    color: var(--head-color);
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+}
+p{
+    color: var(--paragraph-color);
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+
+}
+
+.studio-text{
+    color: var(--head-color);
+    font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
 }
 
 .section-one{
-background: #2E2F42;
-position: absolute;
-width: 1440px;
-height: 600px;
-left: 0px;
-top: 72px;
-}
-h1{
-font-family: var(--font-family);
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 60px;
-text-align: center;
-letter-spacing: 0.02em;
-color: #FFFFFF;
+background-color: #2E2F42;
 
+}
+.section-two{
+background-color: var(--background-white);
+}
+
+
+
+footer{
+    color: #F4F4FD;
+    background-color: #2E2F42;
+    text-align: left;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
 }
