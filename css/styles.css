@@ -91,6 +91,23 @@ letter-spacing: 0.02em;
 
 }
 
+.button{
+    color: var(--h1-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+    background-color: var(--web-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.button:hover, .button:active{
+    background-color: var(--pressed-state);
+}
+
 .studio-text{
     color: var(--head-color);
     font-family: 'Raleway', sans-serif;
@@ -100,18 +117,20 @@ font-size: 18px;
 line-height: 21px;
 }
 
-.section-one{
-background-color: #2E2F42;
-
+.section1{
+background-color: var(--background-dark);
 }
-.section-two{
-background-color: var(--background-white);
+.section2{
+background-color: var(--h1-color);
 }
 
-
-
+.section3{
+    background-color: var(--h1-color);
+}
+.section4{
+    background-color: var(--cloud-color);
+}
 footer{
-    color: #F4F4FD;
     background-color: #2E2F42;
     text-align: left;
 font-style: normal;
@@ -119,4 +138,15 @@ font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
+}
+.text-footer{
+    color: var(--cloud-color);
+}
+.studio-text2{
+    color: var(--cloud-color);
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
 }
