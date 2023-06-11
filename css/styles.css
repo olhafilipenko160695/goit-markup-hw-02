@@ -8,6 +8,7 @@
     --paragraph-color: #434455;
 --pressed-state: #404BBF;
 --h1-color:  #FFFFFF;
+--accent: #E7E9FC
 }
 
 body{
@@ -149,4 +150,22 @@ font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 21px;
+}
+
+.button-portfolio{
+    color: var(--pressed-state);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;    
+        background-color: var(--accent);
+        border: 1px solid var(--accent);
+        border-radius: 4px;
+}
+.button-portfolio:hover, .button-portfolio:active{
+    color: var(--cloud-color);
+    background-color: var(--pressed-state);
 }
