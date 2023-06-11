@@ -8,14 +8,18 @@
     --paragraph-color: #434455;
 --pressed-state: #404BBF;
 --h1-color:  #FFFFFF;
---accent: #E7E9FC
+--accent: #E7E9FC;
+--text: #434455;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    color: var(--text);
+    background-color: var(--h1-color);
 }
 header{
+    font-family: ;
 background-color: var(--background-white);
 }
 .web-text{
