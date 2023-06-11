@@ -1,7 +1,23 @@
-header{
-    color:red;
-    background-color: blue;
+:root{
+    --font-family : 'Roboto';
 }
-body{
-    background-color: red;
+
+.section-one{
+background: #2E2F42;
+position: absolute;
+width: 1440px;
+height: 600px;
+left: 0px;
+top: 72px;
+}
+h1{
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+
 }
