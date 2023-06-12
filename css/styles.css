@@ -106,7 +106,7 @@ letter-spacing: 0.02em;
 
 }
 
-.button{
+.button-one{
     font-family: "Roboto", sans-serif;
     color: var(--h1-color);
 font-weight: 500;
@@ -121,10 +121,10 @@ border-radius: 4px;
 cursor: pointer;
 }
 
-.button:hover, .button:active{
+.button-one:hover, .button-one:active{
     background-color: var(--pressed-state);
 }
-.button:focus{
+.button-one:focus{
     background-color: var(--pressed-state);
 }
 .section-one{
