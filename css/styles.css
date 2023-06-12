@@ -105,7 +105,9 @@ line-height: 24px;
 letter-spacing: 0.02em;
 
 }
-
+.p-section-one{
+    color: var(--paragraph-color);
+}
 .button-one{
     font-family: "Roboto", sans-serif;
     color: var(--h1-color);
@@ -130,14 +132,14 @@ cursor: pointer;
 .section-one{
 background-color: var(--background-dark);
 }
-.section2{
+.section-two{
 background-color: var(--h1-color);
 }
 
-.section3{
+.section-three{
     background-color: var(--h1-color);
 }
-.section4{
+.section-four{
     background-color: var(--cloud-color);
 }
 footer{
