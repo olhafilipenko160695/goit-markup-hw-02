@@ -33,7 +33,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .studio-text{
-    color: var(--head-color);
+    color: var(--background-dark);
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -76,6 +76,7 @@ h1{
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
+    line-height: 1.07
 
 }
 h2{
@@ -106,6 +107,7 @@ letter-spacing: 0.02em;
 }
 
 .button{
+    font-family: 'Roboto', sans-serif;
     color: var(--h1-color);
 font-weight: 500;
 font-size: 16px;
