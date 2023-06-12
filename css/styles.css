@@ -127,7 +127,7 @@ cursor: pointer;
 .button:focus{
     background-color: var(--pressed-state);
 }
-.section1{
+.section-one{
 background-color: var(--background-dark);
 }
 .section2{
