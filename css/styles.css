@@ -144,6 +144,9 @@ background-color: var(--h1-color);
 .section-four{
     background-color: var(--cloud-color);
 }
+.section-four-list{
+    background-color: var(--h1-color);
+}
 footer{
     background-color: #2E2F42;
     text-align: left;
