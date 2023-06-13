@@ -147,7 +147,7 @@ background-color: var(--h1-color);
 .staff-list{
     background-color: var(--h1-color);
 }
-footer{
+.footer{
     background-color: #2E2F42;
     text-align: left;
 font-style: normal;
@@ -159,7 +159,7 @@ letter-spacing: 0.02em;
 .text-footer{
     color: var(--cloud-color);
 }
-.studio-text2{
+.studio-text-footer{
     color: var(--cloud-color);
     font-family: 'Raleway';
 font-style: normal;
