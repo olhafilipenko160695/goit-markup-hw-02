@@ -96,6 +96,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 24px;
 letter-spacing: 0.02em;
+text-transform: capitalize;
 }
 
 .paragraph-one{
@@ -171,7 +172,7 @@ line-height: 21px;
     background-color: var(--pressed-state);
 }
 
-.link-tree{
+.link-three{
     list-style: none;
 }
 .link{
