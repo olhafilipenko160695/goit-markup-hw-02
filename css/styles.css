@@ -172,9 +172,6 @@ line-height: 21px;
     background-color: var(--pressed-state);
 }
 
-.link-three{
-    list-style: none;
-}
 .link{
     text-decoration: none;
 }
