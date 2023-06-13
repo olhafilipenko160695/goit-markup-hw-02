@@ -177,6 +177,7 @@ line-height: 21px;
     text-align: center;
     letter-spacing: 0.04em;    
         background-color: var(--cloud-color);
+      cursor: pointer;  
 }
 .button-portfolio:hover, .button-portfolio:focus{
     color: var(--h1-color);
