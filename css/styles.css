@@ -54,6 +54,7 @@ text-transform: uppercase;
 .ul-one a:hover, .ul-one a:focus, .ul-one a:active {
     color: var(--pressed-state);
     text-decoration: none;
+    letter-spacing: 0.02em
 }
 .ul-address a{
 color: var(--paragraph-color);
@@ -67,6 +68,7 @@ text-decoration: none;
 .ul-address a:hover, .ul-address a:focus{
     color: var(--pressed-state);
     text-decoration: none;
+    letter-spacing: 0.02em
 }
 
 h1{
