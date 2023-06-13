@@ -169,6 +169,7 @@ line-height: 21px;
 }
 
 .button-portfolio{
+    font-family: "Roboto", sans-serif;
     color: var(--pressed-state);
     font-weight: 500;
     font-size: 16px;
