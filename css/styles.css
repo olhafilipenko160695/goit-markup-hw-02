@@ -33,12 +33,6 @@ text-transform: uppercase;
 }
 .studio-text{
     color: var(--background-dark);
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
 }
 .link{
     text-decoration: none;
@@ -175,3 +169,6 @@ line-height: 21px;
     background-color: var(--pressed-state);
 }
 
+.list{
+    list-style: none;
+}
