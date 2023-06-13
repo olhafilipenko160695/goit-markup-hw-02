@@ -179,3 +179,7 @@ line-height: 21px;
     color: var(--cloud-color);
     background-color: var(--pressed-state);
 }
+
+.link-tree{
+    list-style: none;
+}
