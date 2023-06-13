@@ -183,5 +183,7 @@ line-height: 21px;
     color: var(--h1-color);
     background-color: var(--pressed-state);
 }
-
+.link-portfolio{
+    text-decoration: none; 
+}
 
