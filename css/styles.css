@@ -170,16 +170,16 @@ line-height: 21px;
 
 .button-portfolio{
     font-family: "Roboto", sans-serif;
-    color: var(--pressed-state);
+    color: var(--web-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.04em;    
-        background-color: var(--accent);
+        background-color: var(--cloud-color);
 }
-.button-portfolio:hover, .button-portfolio:active{
-    color: var(--cloud-color);
+.button-portfolio:hover, .button-portfolio:focus{
+    color: var(--h1-color);
     background-color: var(--pressed-state);
 }
 
