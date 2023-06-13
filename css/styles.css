@@ -40,6 +40,9 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
+.link{
+    text-decoration: none;
+}
 .ul-1 a{
     color: var(--head-color)
     font-family: 'Roboto';
@@ -87,6 +90,7 @@ line-height: 40px;
 letter-spacing: 0.02em;
 line-height: 1.11;
 text-transform: capitalize;
+text-align: center;
 }
 
 .header-three{
@@ -173,6 +177,3 @@ line-height: 21px;
     background-color: var(--pressed-state);
 }
 
-.link{
-    text-decoration: none;
-}
