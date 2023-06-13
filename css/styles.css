@@ -112,12 +112,8 @@ letter-spacing: 0.02em;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
-display: flex;
-align-items: center;
 letter-spacing: 0.04em;
     background-color: var(--web-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
 cursor: pointer;
 }
 
@@ -166,13 +162,9 @@ line-height: 21px;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.04em;    
         background-color: var(--accent);
-        border: 1px solid var(--accent);
-        border-radius: 4px;
 }
 .button-portfolio:hover, .button-portfolio:active{
     color: var(--cloud-color);
