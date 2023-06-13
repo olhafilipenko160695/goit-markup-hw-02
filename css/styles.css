@@ -42,19 +42,20 @@ text-transform: uppercase;
     list-style: none;
 }
 .ul-one a{
-    color: var(--head-color)
+    color: var(--head-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px; 
-    text-decoration: none;  
+    text-decoration: none; 
+    letter-spacing: 0.02em 
 }
 
 .ul-one a:hover, .ul-one a:focus, .ul-one a:active {
     color: var(--pressed-state);
     text-decoration: none;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 .ul-address a{
 color: var(--paragraph-color);
@@ -68,7 +69,11 @@ text-decoration: none;
 .ul-address a:hover, .ul-address a:focus{
     color: var(--pressed-state);
     text-decoration: none;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+}
+
+.address{
+    font-style: normal;
 }
 
 h1{
