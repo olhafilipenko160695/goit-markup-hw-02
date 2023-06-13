@@ -144,7 +144,7 @@ background-color: var(--h1-color);
 .section-four{
     background-color: var(--cloud-color);
 }
-.staff-list{
+.staff-list>li{
     background-color: var(--h1-color);
 }
 footer{
