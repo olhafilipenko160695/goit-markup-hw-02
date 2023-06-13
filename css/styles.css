@@ -36,6 +36,10 @@ text-transform: uppercase;
 }
 .link{
     text-decoration: none;
+    
+}
+.list{
+    list-style: none;
 }
 .ul-one a{
     color: var(--head-color)
@@ -169,6 +173,4 @@ line-height: 21px;
     background-color: var(--pressed-state);
 }
 
-.list{
-    list-style: none;
-}
+
