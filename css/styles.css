@@ -78,7 +78,7 @@ h1{
     line-height: 1.07
 
 }
-h2{
+.header-two{
 color: var(--head-color);
 font-weight: 700;
 font-size: 36px;
