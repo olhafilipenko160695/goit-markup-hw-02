@@ -55,6 +55,7 @@ text-transform: uppercase;
     height: 52px;
     left: 23px;
     top: 92px;
+    text-decoration: none;
 }
 .ul-address a{
 color: var(--paragraph-color);
@@ -75,7 +76,7 @@ h1{
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
-    line-height: 1.07
+    line-height: 1.07;
 
 }
 .header-two{
